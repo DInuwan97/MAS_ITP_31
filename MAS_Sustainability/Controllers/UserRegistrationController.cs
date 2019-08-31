@@ -66,8 +66,8 @@ namespace MAS_Sustainability.Controllers
                 mySqlcmd.Parameters.AddWithValue("@SecretKey", userRegistrationModel.SecretKey);
                 mySqlcmd.Parameters.AddWithValue("@Validation", "false");
 
-                string UserName = ""; //acount username
-                string Password = ""; //account password
+                string UserName = "0766061689"; //acount username
+                string Password = "4873"; //account password
                 string PhoneNo =  "94"+userRegistrationModel.UserMobile.ToString();
                 string Message = "Hello " +userRegistrationModel.UserFullName+". Welcome to MAS IMS.Your Security Code : " + userRegistrationModel.SecretKey.ToString();
 

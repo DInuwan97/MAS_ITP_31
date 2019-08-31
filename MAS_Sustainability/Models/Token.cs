@@ -49,5 +49,14 @@ namespace MAS_Sustainability
         public String SentUser { get; set; }
 
 
+
+
+        //navodas part
+        public String DeadLine { get; set; }
+        public String RecievedStatus { get; set; }
+        public String RepairStatus { get; set; }
+        public String AddedUserName { get; set; }
+
+
     }
 }

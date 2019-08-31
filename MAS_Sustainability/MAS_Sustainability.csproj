@@ -146,8 +146,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\MainModel.cs" />
+    <Compile Include="Models\Reparation.cs" />
     <Compile Include="Models\Report.cs" />
     <Compile Include="Models\StaffRegistrationModel.cs" />
+    <Compile Include="Models\Survey.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\TokenManager.cs" />
     <Compile Include="Models\UserLogin.cs" />
@@ -205,11 +207,14 @@
     <Content Include="Views\Report\Index.cshtml" />
     <Content Include="Views\UserRegistration\ForgottenPassword.cshtml" />
     <Content Include="Views\UserRegistration\SecureCode.cshtml" />
+    <Content Include="Views\Token\RepairationList.cshtml" />
+    <Content Include="Views\Token\ViewRepairation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Image\" />
     <Folder Include="ProblemImages\" />
+    <Folder Include="Views\Reparation\" />
     <Folder Include="Views\TokenManager\" />
   </ItemGroup>
   <ItemGroup>
